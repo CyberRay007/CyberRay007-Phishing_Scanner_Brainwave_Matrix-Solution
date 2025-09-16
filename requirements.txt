@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+requests
+beautifulsoup4
+pandas
+pylance
+=======
+Python 3.8+
+
+Libraries:
+
+requests
+
+beautifulsoup4
+
+pandas
+
+pylance
+
+>>>>>>> 1a4de87e799cb804b070da94c2175e33298370be
