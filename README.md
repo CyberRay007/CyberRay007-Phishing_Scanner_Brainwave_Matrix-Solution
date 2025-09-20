@@ -40,12 +40,12 @@ Copy code
 requests
 beautifulsoup4
 pandas
-▶️ Usage
-🔹 Scan a single URL
+ Usage
+ Scan a single URL
 bash
 Copy code
 python phishing_scanner.py --url "http://example.com/login"
-🔹 Scan a batch of URLs (CSV input)
+ Scan a batch of URLs (CSV input)
 bash
 Copy code
 python phishing_scanner.py --input_csv samples_urls.csv --output_csv report.csv
@@ -63,9 +63,58 @@ https://accounts.google.com
 http://sub1.sub2.sub3.sub4.domain.top/reset
 https://mybank-secure-login.xyz/confirm
 http://example.com/93485734987534987534
+https://www.google.com/search?q=cybersecurity
+https://github.com/CyberRay007/Brainwave_Matrix_Intern
+https://www.microsoft.com/en-us
+https://www.apple.com
+https://www.amazon.com/gp/bestsellers
+https://www.linkedin.com/in/yourprofile
+https://www.facebook.com
+https://twitter.com/home
+https://www.instagram.com
+https://www.paypal.com/myaccount/summary
+https://stackoverflow.com/questions
+https://en.wikipedia.org/wiki/Cybersecurity
+https://pypi.org/project/requests/
+https://pandas.pydata.org/
+https://www.reddit.com/r/netsec/
+https://www.netflix.com/browse
+https://www.dropbox.com/login
+https://slack.com/signin
+https://zoom.us/join
+https://aws.amazon.com/console
+https://drive.google.com
+https://mail.google.com
+https://www.imdb.com
+https://www.cnn.com
+https://www.bbc.com/news
+http://secure-paypal.example/login
+https://paypal.verify.test/account
+http://login-apple.example/signin,
+https://appleid.verify.invalid/auth
+http://account-google.example/update
+https://google-secure.test/confirm
+http://bank-secure.invalid/verify
+https://chase-login.example/auth
+http://wellsfargo.verify.test/session
+https://netflix-activate.example/redeem
+http://microsoft-office.verify.test/login
+https://update-password.example/reset
+http://verify-account.test/confirm
+https://billing-paypal.invalid/invoice
+http://paypa1-login.example/signin
+https://rnicrosoft-login.test/security
+http://secure-bank-example.test/portal
+https://auth-verify.example/session
+http://secure-login-bank.invalid/confirm
+https://accounts-google.verify.test/login
+http://bitly-like.test/abc123
+https://tinyurl-mock.example/redirect
+http://xn--pple-example.test/login
+https://secure-paypal-verify.example/reset
+http://login-security-example.invalid/confirm
+
 </details>
-📸 Screenshots
-Example scanner run in terminal:
 
 Example generated CSV report:
 
@@ -80,11 +129,9 @@ Brainwave_Matrix_Intern/
 │── LICENSE               # MIT License
 │── .gitignore            # Ignored files (e.g., report.csv, .venv/)
 │── screenshots/          # Demo images
-🧪 GitHub CI/CD
-This repo includes a GitHub Action workflow that automatically installs dependencies and runs a test scan whenever changes are pushed.
 
-📝 License
+ License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-✨ Author
+ Author
 CyberRay007 – Cybersecurity Analyst & Ethical Hacker Intern @ Brainwave Matrix
